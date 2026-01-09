@@ -1141,7 +1141,7 @@ body {
 
 /* Footer */
 footer {
-  background: #000000;
+  background: #A0BBA0;
   color: #ffffff;
   padding: 100px 60px;
   box-sizing: border-box;
@@ -1177,7 +1177,7 @@ footer {
 }
 
 .footer-links p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
   font-weight: 400;
   text-align: left;
   line-height: 0.3;
@@ -1213,7 +1213,7 @@ footer button {
 
 footer button:hover {
   background: #fff;
-  color: #000000;
+  color: #A0BBA0;
 }
 
 .brand {
@@ -1226,9 +1226,8 @@ footer button:hover {
 .footer-icons {
   display: flex;
   align-items: center;
-  margin-left: auto;     /* ✅ Drückt automatisch nach rechts */
   gap: 7px;
-  margin-right: 50px;    /* ✅ Abstand vom Rand */
+  margin-top: 20px;
 }
 
 .footer-icons img {
@@ -1260,6 +1259,11 @@ footer button:hover {
   
   .footer-links > div {
     width: 100%;
+  }
+  
+  .footer-icons {
+    margin-top: 20px;
+    justify-content: flex-start;
   }
   
   footer input {
