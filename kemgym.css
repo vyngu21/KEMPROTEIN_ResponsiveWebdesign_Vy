@@ -488,6 +488,7 @@ body {
   
   .shop p {
     font-size: 12px;
+    margin-top: 20px;
   }
   
   .products {
@@ -1262,7 +1263,7 @@ footer button:hover {
   }
 
     .footer-links p {
-    line-height: 0.5;
+    line-height: 1.5;
   }
   
   .footer-icons {
