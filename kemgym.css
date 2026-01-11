@@ -1285,3 +1285,56 @@ footer button:hover {
     box-sizing: border-box;
   }
 }
+
+/* iPhone-Geräte (390px - 428px) */
+@media (max-width: 428px) {
+  footer {
+    padding: 40px 20px;
+  }
+  
+  .footer-links {
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .footer-links li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-links p {
+    font-size: 14px;
+    line-height: 0.5;
+    margin-bottom: 8px;
+  }
+  
+  .brand {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  
+  footer input {
+    padding: 14px;
+    font-size: 16px;
+  }
+  
+  footer button {
+    padding: 14px 24px;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  
+  .footer-icons {
+    gap: 12px;
+    margin-top: 25px;
+  }
+  
+  .footer-icons img {
+    width: 28px;
+  }
+}
